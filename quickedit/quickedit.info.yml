@@ -1,5 +1,0 @@
-name: quickedit
-type: module
-description: Dummy module to replace quickedit.
-package: Useless Machines
-core_version_requirement: ^9 || ^10

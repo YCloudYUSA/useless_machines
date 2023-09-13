@@ -1,5 +1,0 @@
-name: rdf
-type: module
-description: Dummy module to replace rdf.
-package: Useless Machines
-core_version_requirement: ^9 || ^10
