@@ -8,6 +8,6 @@
 /**
  * Uninstall me.
  */
-function jquery_ui_draggable_reset_post_update_uninstall() {
+function jquery_ui_draggable_post_update_uninstall() {
   \Drupal::service('module_installer')->uninstall(['jquery_ui_draggable']);
 }
