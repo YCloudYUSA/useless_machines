@@ -1,5 +1,5 @@
 name: action
 type: module
-description: Dummy module to replace action.
+description: Dummy module to replace rdf.
 package: Useless Machines
 core_version_requirement: ^10 || ^11

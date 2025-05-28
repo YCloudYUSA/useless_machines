@@ -1,5 +1,6 @@
-name: action
+name: tour
 type: module
-description: Dummy module to replace action.
+description: Dummy module to replace tour.
 package: Useless Machines
 core_version_requirement: ^10 || ^11
+
