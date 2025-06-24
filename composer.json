@@ -10,6 +10,9 @@
         "drupal/quickedit": "*",
         "drupal/rdf": "*"
     },
+    "replace": {
+        "ymcatwincities/media_entity_document": "*"
+    },
     "license": "GPL-3.0-or-later",
     "minimum-stability": "dev"
 }
