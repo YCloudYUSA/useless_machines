@@ -3,6 +3,7 @@
     "description": "Modules that turn themselves off.",
     "type": "drupal-module",
     "require": {
+        "drupal/core" "^11"
     },
     "conflict": {
         "drupal/geysir": "*",
