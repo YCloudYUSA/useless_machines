@@ -1,5 +1,5 @@
-name: action
+name: ckeditor_font
 type: module
-description: Dummy module to replace action.
+description: Dummy module to replace ckeditor_font.
 package: Useless Machines
 core_version_requirement: ^10 || ^11
