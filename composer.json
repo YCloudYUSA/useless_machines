@@ -7,7 +7,10 @@
     },
     "conflict": {
         "drupal/geysir": "*",
+        "drupal/groupexpro": "*",
+        "drupal/openy_gxp": "*",
         "drupal/openy_inline_editing": "*",
+        "drupal/openy_pef_gxp_sync": "*",
         "drupal/quickedit": "*",
         "drupal/rdf": "*"
     },

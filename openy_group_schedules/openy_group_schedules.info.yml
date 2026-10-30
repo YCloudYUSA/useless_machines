@@ -1,0 +1,5 @@
+name: openy_group_schedules
+type: module
+description: Dummy module to replace openy_group_schedules.
+package: Useless Machines
+core_version_requirement: ^10 || ^11
