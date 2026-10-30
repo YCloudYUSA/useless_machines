@@ -1,0 +1,5 @@
+name: openy_pef_gxp_sync
+type: module
+description: Dummy module to replace openy_pef_gxp_sync.
+package: Useless Machines
+core_version_requirement: ^10 || ^11
