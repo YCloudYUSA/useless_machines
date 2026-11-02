@@ -1,0 +1,21 @@
+<?php
+
+/**
+ * @file
+ * Install and update functions for the openy_pef_gxp_sync useless machine.
+ */
+
+/**
+ * Drops the storage left by the retired openy_pef_gxp_mapping entity type.
+ *
+ * Runs as an update function because every post update, whichever module owns
+ * it, may load views or fields and stop on the entity type that is gone. The
+ * entity class is gone, so the last installed definition is handed to the
+ * entity type listener, which drops the tables and their schema data from it.
+ */
+function openy_pef_gxp_sync_update_10001() {
+  $entity_type = \Drupal::entityDefinitionUpdateManager()->getEntityType('openy_pef_gxp_mapping');
+  if ($entity_type) {
+    \Drupal::service('entity_type.listener')->onEntityTypeDelete($entity_type);
+  }
+}
